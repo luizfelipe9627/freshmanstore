@@ -23,12 +23,12 @@
 ## 🌌 Equipe front-end
 
 - <a href="https://luizfelipe9627.github.io/fres" title='Ir até o perfil.'>Luiz Felipe Silva</a>
-- 
+- <a href="https://github.com/Mateus223-ti" title='Ir até o perfil.'>Mateus Epifanio Linhares</a>
 
 ## 🔧 Equipe back-end
 
--
--
+- <a href="https://github.com/elves-dev" title='Ir até o perfil.'>Elves</a>
+- 
 
 ## 💡 Equipe design
 

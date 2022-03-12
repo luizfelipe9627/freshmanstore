@@ -1,0 +1,89 @@
+/*
+    GERAL ↴
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/*
+    ÁREA HEADER ↴
+*/
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+nav ul a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+nav ul a:hover {
+    font-weight: bold;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.container_menu {
+    height: 80px;
+    background-color: #fff;
+    max-width: 1140px; 
+    margin:  auto;
+    padding-top: 20px;
+}
+
+.section_usuario {
+    display: flex;
+    align-items: center;
+}
+
+.bolsa {
+    padding-right: -40px;
+}
+
+.lupa {
+    margin-left: -60px;
+}
+
+.logo {
+    margin: 0;
+    font-weight: 200;
+}
+
+.pesquisa {
+    height: 40px;
+    width: 180px;
+    padding: 15px;
+    margin-left:100px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #ebebeb;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container_produto {
+    width: 1366px;
+    height: 688px;
+    background: #F2F2F2;
+}
+
+/*
+    ÁREA MARKETING PRODUTO ↴
+*/
+

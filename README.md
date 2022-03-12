@@ -28,8 +28,7 @@
 ## 🔧 Equipe back-end
 
 - <a href="https://github.com/elves-dev" title='Ir até o perfil.'>Elves Santos</a>
-- 
 
 ## 💡 Equipe design
 
--
+- <a href="https://github.com/Aoong" title='Ir até o perfil.'>Jeovane Nunes Santos</a>

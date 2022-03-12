@@ -8,7 +8,6 @@
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
-    
 }
 
 /*
@@ -20,7 +19,6 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff;
 }
 
 nav ul a {
@@ -39,8 +37,9 @@ nav ul a:hover {
 }
 
 .container_menu {
+    width: 100vw;
     height: 80px;
-    background-color: #fff;
+    background-color: #FFFFFF;
     max-width: 1140px; 
     margin:  auto;
     padding-top: 20px;
@@ -77,13 +76,12 @@ nav ul a:hover {
     font-weight: 400;
 }
 
-.container_produto {
-    width: 1366px;
-    height: 688px;
-    background: #F2F2F2;
-}
-
 /*
     ÁREA MARKETING PRODUTO ↴
 */
 
+.container_marketing {
+    width: 1366px;
+    height: 688px;
+    background: #F2F2F2;
+}

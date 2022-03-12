@@ -6,8 +6,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 /*
@@ -36,7 +39,7 @@ nav ul a:hover {
     font-weight: bold;
 }
 
-.container_menu {
+.menu {
     width: 100vw;
     height: 80px;
     background-color: #FFFFFF;

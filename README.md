@@ -27,10 +27,9 @@
 
 ## 🔧 Equipe back-end
 
-- <a href="https://github.com/elves-dev" title='Ir até o perfil.'>Elves</a>
+- <a href="https://github.com/elves-dev" title='Ir até o perfil.'>Elves Santos</a>
 - 
 
 ## 💡 Equipe design
 
--
 -

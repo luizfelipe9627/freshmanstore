@@ -6,11 +6,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    
 }
 
 body {
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*
@@ -28,7 +29,7 @@ nav ul a {
     margin-left: 20px;
     text-decoration: none;
     color: #000;
-    font-size: 14px;
+    font-size: 19px;
 }
 
 nav ul a:hover {
@@ -82,9 +83,26 @@ nav ul a:hover {
 /*
     ÁREA MARKETING PRODUTO ↴
 */
-
-.container_marketing {
-    width: 1366px;
-    height: 688px;
+.MarketingFone{
     background: #F2F2F2;
+}
+.textosFoneModel{
+    width: 1000px;
+    height: 688px;
+    
+}
+.textosFoneModel h1 {
+    font-size: 28px;
+    font-weight: 1000;
+    font-family: 'Montserrat', sans-serif;
+}
+.textosFoneModel h2 {
+    font-size: 28px;
+    font-weight: 450;
+    font-family: 'Montserrat', sans-serif;
+}
+.textosFoneModel P {
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
 }

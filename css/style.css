@@ -2,20 +2,21 @@
     GERAL ↴
 */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
 
 body {
     overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    background-color:  #333333 ;
+    width: 194px;
+    height: 40px;
+    color: #FFF;
+    border-radius: 15px;
 }
 
 /*
-    ÁREA HEADER ↴
+    ÁREA MENU ↴
 */
 
 nav ul {
@@ -49,7 +50,7 @@ nav ul a:hover {
     padding-top: 20px;
 }
 
-.section_usuario {
+.sectionUsuario {
     display: flex;
     align-items: center;
 }
@@ -81,28 +82,79 @@ nav ul a:hover {
 }
 
 /*
-    ÁREA MARKETING PRODUTO ↴
+    ÁREA MARKETING FONE ↴
 */
-.MarketingFone{
+
+.marketingFone{
     background: #F2F2F2;
+    width: 100vw;
+    height: 87vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
-.textosFoneModel{
-    width: 1000px;
-    height: 688px;
-    
+
+
+.textosFoneModel {
+    align-items: center;
+    display: flex;
 }
+
+.textosFoneModel2 {
+    padding-right: 8vw;
+    padding-left: 10vw;
+}
+
 .textosFoneModel h1 {
-    font-size: 28px;
-    font-weight: 1000;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 5px;
 }
+
 .textosFoneModel h2 {
-    font-size: 28px;
+    font-size: 36px;
     font-weight: 450;
-    font-family: 'Montserrat', sans-serif;
 }
+
 .textosFoneModel P {
-    margin: 10px;
-    padding: 5px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    max-width: 600px;
 }
+
+.barraModelo {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 75vw;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+}
+
+.negritoModelo {
+    font-weight: 550;
+    display: inline;
+}
+
+.airDots img {
+    width: 400px;
+    height: 400px;
+}
+
+.buttonModelo {
+    margin-left: 50px;
+}
+
+.buttonModelo:hover {
+    font-weight: bold;
+}
+
+/*
+    ÁREA TENDÊNCIAS ↴
+*/

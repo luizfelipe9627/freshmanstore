@@ -35,6 +35,6 @@ Temos o intuito de não só usar para portfólio mas também fazer dele nosso re
 
 - <a href="https://github.com/Aoong" title='Ir até o perfil.'>Jeovane Nunes Santos</a>
 
-## 🗣️ Equipe comunição 
+## 🗣️ Equipe comunicação 
 
-- <a href="https://github.com/Aoong" title='Ir até o perfil.'>Fernando<a>
+- <a href="https://github.com/..." title='Ir até o perfil.'>Fernando</a>

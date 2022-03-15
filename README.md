@@ -2,12 +2,12 @@
 
 ![Badge](https://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=blue&style=for-the-badge)             
 
-<img src="https://luizfelipe9627.github.io/freshmanstore/images/site.png" alt="Site">
+<img src="https://freshmanstore.github.io/freshmanstore/images/site.png" alt="Site">
 
 ## 📄 Descrição
 Freshmanstore é um site de venda de fones de ouvidos. Nesse projeto web o cliente terá acesso a fones de ultima geração, podendo adicionar ele no carrinho e até mesmo fazer um cadastro em nosso site. 
 
-### <a href="https://luizfelipe9627.github.io/freshmanstore">Acesse o site</a>
+### <a href="https://freshmanstore.github.io/freshmanstore">Acesse o site</a>
 
 ## 📑 Observação
 Se você está entrando aqui pela primeira vez, prazer somos um grupo de 5 pessoas com intuito de desenvolver um ecommerce por meio de html, css e a paparicada por todos JAVASCRIPT, o nome do nosso projeto é FreshmanStore.
@@ -24,7 +24,7 @@ Temos o intuito de não só usar para portfólio mas também fazer dele nosso re
 
 ## 🌌 Equipe front-end
 
-- <a href="https://luizfelipe9627.github.io/fres" title='Ir até o perfil.'>Luiz Felipe Silva</a>
+- <a href="https://github.com/luizfelipe9627" title='Ir até o perfil.'>Luiz Felipe Silva</a>
 - <a href="https://github.com/Mateus223-ti" title='Ir até o perfil.'>Mateus Epifanio Linhares</a>
 
 ## 🔧 Equipe back-end

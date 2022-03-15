@@ -5,14 +5,16 @@
 <img src="https://luizfelipe9627.github.io/freshmanstore/images/site.png" alt="Site">
 
 ## 📄 Descrição
-...
+Freshmanstore é um site de venda de fones de ouvidos. Nesse projeto web o cliente terá acesso a fones de ultima geração, podendo adicionar ele no carrinho e até mesmo fazer um cadastro em nosso site. 
 
 ### <a href="https://luizfelipe9627.github.io/freshmanstore">Acesse o site</a>
 
 ## 📑 Observação
-...
-
-
+Se você está entrando aqui pela primeira vez, prazer somos um grupo de 5 pessoas com intuito de desenvolver um ecommerce por meio de html, css e a paparicada por todos JAVASCRIPT, o nome do nosso projeto é FreshmanStore.
+<br><br>
+Temos o intuito de não só usar para portfólio mas também fazer dele nosso recurso financeiro futuramente, somos leigos nessa novo mundo da programação estamos no 1° semestre de análise e desenvolvimento de sistemas, por isso pode ser que demoremos para terminar.
+<br><br>
+ Porém temos esse projeto como uma prática bem integradora, onde nos levará aprender a trabalhar como equipe já que no meio profissional deveremos nos acostumar com essa logistica de desenvolvimento.
 
 ## 💻 Tecnologias utilizadas
 
@@ -32,3 +34,7 @@
 ## 💡 Equipe design
 
 - <a href="https://github.com/Aoong" title='Ir até o perfil.'>Jeovane Nunes Santos</a>
+
+## 🗣️ Equipe comunição 
+
+- <a href="https://github.com/Aoong" title='Ir até o perfil.'>Fernando<a>

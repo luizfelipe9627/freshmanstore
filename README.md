@@ -5,7 +5,7 @@
 <img src="https://freshmanstore.github.io/freshmanstore/images/site.png" alt="Site">
 
 ## 📄 Descrição
-Freshmanstore é um site de venda de fones de ouvidos. Nesse projeto web o cliente terá acesso a fones de ultima geração, podendo adicionar ele no carrinho e até mesmo fazer um cadastro em nosso site. 
+Nesse projeto web o cliente terá acesso a produtos de última geração, podendo adicionar ele no carrinho, efetuar a compra e até mesmo fazer um cadastro em nosso site.
 
 ### <a href="https://freshmanstore.github.io/freshmanstore">Acesse o site</a>
 

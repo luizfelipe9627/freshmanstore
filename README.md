@@ -24,17 +24,70 @@ Temos o intuito de não só usar para portfólio mas também fazer dele nosso re
 
 ## 🌌 Equipe front-end
 
-- <a href="https://github.com/luizfelipe9627" title='Ir até o perfil.'>Luiz Felipe Silva</a>
-- <a href="https://github.com/Mateus223-ti" title='Ir até o perfil.'>Mateus Epifanio Linhares</a>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/luizfelipe9627">
+        <img src="https://github.com/luizfelipe9627.png" width="100px;" alt="Foto"/><br>
+        <sub>
+          <b>Luiz Felipe Silva</b>
+        </sub>
+      </a>
+    </td>
+   
+   <td align="center">
+      <a href="https://github.com/Mateus223-ti">
+        <img src="https://github.com/Mateus223-ti.png" width="100px;" alt="Foto"/><br>
+        <sub>
+          <b>Mateus Epifanio</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## 🔧 Equipe back-end
 
-- <a href="https://github.com/elves-dev" title='Ir até o perfil.'>Elves Santos</a>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/elves-dev">
+        <img src="https://github.com/elves-dev.png" width="100px;" alt="Foto"/><br>
+        <sub>
+          <b>Elves Santos</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## 💡 Equipe design
 
-- <a href="https://github.com/Aoong" title='Ir até o perfil.'>Jeovane Nunes Santos</a>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Aoong">
+        <img src="https://github.com/Aoong.png" width="100px;" alt="Foto"/><br>
+        <sub>
+          <b>Jeovane Nunes</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## 🗣️ Equipe comunicação 
 
-- <a href="https://github.com/..." title='Ir até o perfil.'>Fernando</a>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/..">
+        <img src="https://github.com/..." width="100px;" alt="Foto"/><br>
+        <sub>
+          <b>Fernando</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>

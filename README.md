@@ -2,7 +2,7 @@
 
 ![Badge](https://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=blue&style=for-the-badge)             
 
-<img src="https://freshmanstore.github.io/freshmanstore/images/site.png" alt="Site">
+<img src="https://freshmanstore.github.io/freshmanstore/assets/images/site.png" alt="Site">
 
 ## 📄 Descrição
 Nesse projeto web o cliente terá acesso a produtos de última geração, podendo adicionar ele no carrinho, efetuar a compra e até mesmo fazer um cadastro em nosso site.

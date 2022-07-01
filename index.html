@@ -3,70 +3,93 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=0">
-        <title>freshmanstore</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="/css/reset.css">
-
-        <link rel="stylesheet" href="https://freshmanstore.github.io/freshmanstore/css/style.css">
-        <link rel="stylesheet" href="https://freshmanstore.github.io/freshmanstore/css/reset.css">
-
-        <script src="/js/script.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="shortcut icon" href="./assets/image/icon.svg" type="image/x-icon">
+        <title>Freshmanstore</title>
     </head>
 
     <body>
-
-        <!--ÁREA MENU-->
-
         <header>
             <div class="menu">
-                <nav>
-                    <ul>
-                        <div class="logo">
-                            <a href=""><img src="https://freshmanstore.github.io/freshmanstore/assets/images/freshmanstore.png"></a>
-                        </div>
+                <div class="logo">
+                    <a href="#"><img src="./assets/image/freshmanstore.svg" alt="Logo freshmanstore"></a>
+                </div>
 
-                        <li><a href="" class="active">CASA INTELIGENTE</a></li>
-                        <li><a href="">ÁUDIO</a></li>
-                        <li><a href="">SMARTWATCH</a></li>
+                <div class="menu-burguer">
+                    <nav>
+                        <ul>
+                            <div class="pesquisar">
+                                <input type="text" placeholder="Procurar">
+                                <a href="#"><img src="./assets/image/lupa.svg" class="lupa" alt="Lupa de pesquisa"></a>
+                            </div>
+                            
+                            <li><a href="#" class="active">CASA INTELIGENTE</a></li>
+                            <li><a href="#">ÁUDIO</a></li>
+                            <li><a href="#">SMARTWATCH</a></li>
+                        </ul>
+                    </nav>
+                </div>
 
-                        <div class="sectionUsuario">
-                            <input type="text" class="pesquisa" placeholder="Procurar">
-                            <a href=""><img src="https://freshmanstore.github.io/freshmanstore/assets/images/lupa.png" class="lupa"></a>
-                            <a href=""><img src="https://freshmanstore.github.io/freshmanstore/assets/images/bolsa-de-compras.png" class="bolsa"></a>
-                            <a href=""><img src="https://freshmanstore.github.io/freshmanstore/assets/images/usuário.png"" class="usuario"></a>
-                        </div>
-                    </ul>
-                </nav>
+                <div class="section-usuario">
+                    <div class="pesquisar">
+                        <input type="text" placeholder="Procurar">
+                        <a href="#"><img src="./assets/image/lupa.svg" class="lupa" alt="Lupa de pesquisa"></a>
+                    </div>
+
+                   <div class="bolsa">
+                        <a href="#"><img src="./assets/image/bolsa-de-compras.svg" alt="Bolsa de compras"></a>
+                   </div>
+
+                   <div class="usuario">
+                     <a href="#"><img src="./assets/image/usuário.svg" alt="Ícone usuário"></a>
+                   </div>
+                </div>
+
+                <div class="menu-icon">
+                   <img src="./assets/image/menu-mobile.svg" class="menu-mobile" alt="Menu" aria-label="Abrir menu" width="35">
+                </div>
             </div>
         </header>
 
         <main>
-            
-            <!--ÁREA PRODUTO-->
-
-            <section class="marketingFone">
-                <div class="textosFoneModel">
-                    <div class="textosFoneModel2">
+            <section class="marketing-fone">
+                <div class="texto-marketing">
+                    <div class="container-texto">
                         <h1>Fone de Ouvido Bluetooth</h1>
                         <h2>Redmi Buds AirDots 3 PRO - Xiaomi</h2>
-                        <p class="textoAp">O novo redmi Buds 3 PRO chegou com muita tecnologia! Conte com  sensor de uso, 
-                            3 microfones, redução ativa de ruidos e conexão simultânea em 2 aparelhos
+                        <p class="textoAp">
+                            O novo redmi Buds 3 PRO chegou com muita tecnologia! Conte com  sensor de uso 3 microfones, redução ativa de ruídos e conexão simultânea em 2 aparelhos
                         </p>
                     </div>
                     
-                    <div class="airDots">
-                        <img src="https://freshmanstore.github.io/freshmanstore/assets/images/airdots.png" alt="AirDots" >
+                    <div class="air-dots">
+                        <img src="./assets/image/airdots.svg" alt="AirDots" >
                     </div>
                 </div>
 
-                <div class="barraModelo">
-                    <div class="marcaModelo"><div class="negritoModelo">MARCA</div> XIAOMI</div>
-                    <div class="modelo"><div class="negritoModelo">MODELO</div> Buds 3 PRO</div>
-                    <div class="corModelo"><div class="negritoModelo">COR</div> Preto</div>
-                    <div class="valorModelo"><div class="negritoModelo">VALOR</div> R$379,90</div>
-                    <a href="#"><button class="buttonModelo">COMPRE AGORA</button></a>
+                <div class="barra-modelo">
+                    <div class="marca-modelo">
+                        <div class="negrito-modelo">MARCA</div>XIAOMI
+                    </div>
+
+                    <div class="modelo">
+                        <div class="negrito-modelo">MODELO</div>Buds 3 PRO
+                    </div>
+
+                    <div class="cor-modelo">
+                        <div class="negrito-modelo">COR</div> Preto
+                    </div>
+
+                    <div class="valor-modelo">
+                        <div class="negrito-modelo">VALOR</div> R$379,90
+                    </div>
+
+                    <div class="comprar-agora">
+                        <a href="#"><button class="button-modelo">COMPRE AGORA</button></a>
+                    </div>
                 </div>
             </section>
         </main>
@@ -74,5 +97,6 @@
         <footer>
 
         </footer>
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>

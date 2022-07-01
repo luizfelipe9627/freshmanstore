@@ -1,0 +1,11 @@
+body {
+  overflow-x: hidden;
+}
+
+button {
+  background-color:  #333333 ;
+  width: 194px;
+  height: 40px;
+  color: #FFF;
+  border-radius: 15px;
+}

@@ -93,7 +93,7 @@ nav li a {
     background-color: #FFF;
     position: absolute;
     top: 80px;
-    right: -22px;
+    right: 0;
   }
 
   .logo {

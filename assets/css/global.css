@@ -9,3 +9,7 @@ button {
   color: #FFF;
   border-radius: 15px;
 }
+
+.container {
+  padding: 20px;
+}

@@ -1,19 +1,33 @@
 header {
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #FFF;
   z-index: 999;
 }
 
-nav ul {
+.section-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 1140px; 
+  height: 80px;
+  margin:  auto;
+}
+
+.menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-nav ul a {
+nav ul {
+  display: flex;
+}
+
+nav li a {
   text-decoration: none;
   color: #000;
   font-size: 17px;
+  text-transform: uppercase;
 }
 
 nav ul a:hover, .active {
@@ -24,17 +38,7 @@ nav li a {
   margin-left: 3vw;
 }
 
-.menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  max-width: 1140px; 
-  height: 80px;
-  margin:  auto;
-  position: relative;
-}
-
-.section-usuario {
+.bolsa-e-usuario {
   display: flex;
   align-items: center;
 }
@@ -71,49 +75,50 @@ nav li a {
   cursor: pointer;
 }
 
-.menu-burguer .pesquisar {
-  display: none;
-}
-
 @media (min-width: 320px) and (max-width: 767px) {
-  header {
-    position: none;
+   header {
+    align-items: center;
+    justify-content: center;
   }
 
-  .menu-burguer {
-    display: none;
+  .menu ul li, .menu .pesquisar, .bolsa-e-usuario, header, .menu-lupa, .menu-icon img {
+    display: flex;
+  }
+
+  .menu {
+    opacity: 0;
+    transition:all 0.5s ease 0.1s;
+    flex-direction: column-reverse;
     padding: 30px 20px 20px 20px;
     background-color: #FFF;
     position: absolute;
     top: 80px;
-    right: 0px;
+    right: -22px;
+  }
+
+  .logo {
+    width: 80vw;
   }
   
-  .menu-burguer ul li, .menu-burguer .pesquisar {
-    display: flex;
-  }
-  
-  .menu-burguer .pesquisar input {
+  .menu .pesquisar input {
     width: 220px;
     margin: 0;
   }
   
-  .menu-burguer .lupa {
-    display: flex;
+  .menu .lupa {
     margin-right: -10px;
   }
   
-  .menu-burguer nav ul {
+   nav ul {
     flex-direction: column;
     align-items: flex-end;
-    justify-content: space-around;
   }
   
-  .menu-burguer nav li a {
-    margin: 30px;
+  nav li a {
+    margin: 30px 20px 30px 20px;
   }
   
-  .menu-burguer nav ul a:hover {
+  nav ul a:hover {
     font-weight: bold;
   }
 
@@ -122,18 +127,10 @@ nav li a {
   }
 
   .usuario {
-    margin: 0 15px 0 15px;
-  }
-  
-  nav li {
-    display: none;
+    margin-left: 30px;
   }
 
-  .section-usuario input, .lupa {
-    display: none;
-  }
-
-  .menu-icon img {
-    display: flex;
+  .bolsa-e-usuario {
+    margin-bottom: 20px;
   }
 }

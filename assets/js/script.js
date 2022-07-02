@@ -29,17 +29,17 @@ function goNext() {
   currentSlide++;
   
   if(currentSlide > (totalSlides - 1)) {
-    currentSlide = 0
+    currentSlide = 0;
   }
   updateMargin();
 }
 
 function updateMargin() {
-  let sliderImgWidth = document.querySelector('.slider-img').clientWidth
+  let sliderImgWidth = document.querySelector('.slider-img').clientWidth;
   let newMargin = (currentSlide * sliderImgWidth);
 
-  document.querySelector('.slider-width').style.marginLeft = `-${newMargin}px`
+  document.querySelector('.slider-width').style.marginLeft = `-${newMargin}px`;
 }
 
-setInterval(goNext, 3000);
+setInterval(goNext, 2500);
 

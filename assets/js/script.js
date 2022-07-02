@@ -8,7 +8,6 @@ window.onload = function () {
   });
 };
 
-
 let totalSlides = document.querySelectorAll('.slider-img').length;
 let currentSlide = 0;
 let sliderWidth = document.querySelector('.slider').clientWidth;
@@ -42,5 +41,5 @@ function updateMargin() {
   document.querySelector('.slider-width').style.marginLeft = `-${newMargin}px`
 }
 
-// setInterval(goNext, 3000);
+setInterval(goNext, 3000);
 

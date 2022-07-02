@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  content: '';
   top: 0;
   z-index: 1;
 }
@@ -18,29 +17,33 @@
   flex-wrap: wrap;
 }
 
-.texto-marketing h1 {
+.container-texto h1 {
+  font-family: 'Montserrat';
   font-size: 36px;
   font-weight: 700;
   padding-bottom: 5px;
+  color: #333333
 }
 
-.texto-marketing h2 {
+.container-texto h2 {
+  font-family: 'Montserrat';
   font-size: 36px;
-  font-weight: 450;
+  font-weight: 500;
 }
 
-.texto-marketing p {
+.container-texto p {
+  font-family: 'Montserrat';
   font-size: 20px;
+  font-weight: 400;
   padding-top: 10px;
   max-width: 600px;
+  color: #333333;
 }
 
 .barra-modelo {
   background-color: #FFFFFF;
   border-radius: 15px;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px 30px 10px 30px;
   width: 75vw;
   justify-content: space-between;
   display: flex;
@@ -50,23 +53,39 @@
   flex-wrap: wrap;
 }
 
+.modelo {
+  display: flex;
+  align-items: center;
+}
+
 .negrito-modelo {
-  font-weight: 550;
+  font-family: 'Barlow Condensed';
+  font-size: 18px;
+  font-weight: 700;
   margin-right: 10px;
-  display: inline;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.nome-modelo {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
 }
 
 .air-dots img {
   width: 400px;
   height: 400px;
-  margin-right: -90px;
+  margin: 0 -90px 0 90px;
+
 }
 
-.button-modelo {
+.comprar-agora button {
   margin-left: 50px;
 }
 
-.button-modelo:hover {
+.comprar-agora button:hover {
   font-weight: bold;
 }
 
@@ -74,12 +93,12 @@
   .air-dots img {
     width: 300px;
     height: 300px;
-    margin-right: auto;
+    margin: 0;
   }
 
   .marketing-fone {
     top: auto;
-    height: 90vh;
+    height: 80vh;
   }
 
   .texto-marketing {
@@ -87,15 +106,15 @@
   }
 
   .container-texto h1 {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .container-texto h2 {
-    font-size: 20px;
+    font-size: 21px;
   }
 
-  .texto-marketing p {
-    font-size: 18px;
+  .container-texto p {
+    font-size: 19px;
   }
 
   .barra-modelo {
@@ -111,13 +130,12 @@
   .marca-modelo, .modelo, .cor-modelo, .valor-modelo {
     display: block;
     padding: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin: 0 10px 10px 0;
     background-color: #FFFFFF;
     border-radius: 10px;
   }
 
-  .button-modelo {
+  .comprar-agora button {
     margin: 10px 0 5px 0;
   }
 

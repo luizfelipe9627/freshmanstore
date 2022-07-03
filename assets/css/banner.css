@@ -1,0 +1,75 @@
+.banner {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-image: url("../image/template.svg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-texto {
+  font-family: 'Montserrat';
+  max-width: 40vw;
+  flex-wrap: wrap;
+}
+
+.banner-titulo {
+  font-size: 30px;
+  margin-bottom: 10px;
+  line-height: 35px;
+  color: #333333;
+}
+
+.banner-titulo strong {
+  font-weight: 700;
+}
+
+.banner-frase p {
+  line-height: 25px;
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+.banner-button button {
+  text-transform: uppercase;
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.compre-agora {
+  background-color: #F2F2F2;;
+  text-transform: uppercase;
+  margin-right: 30px;
+  color: #333333;
+}
+
+.compre-agora:hover {
+  font-weight: 700;
+}
+
+.explorar:hover {
+  font-weight: 700;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .banner-texto {
+    max-width: 70vw;
+  }
+
+  .banner-titulo {
+    font-size: 26px;
+  }
+
+  .banner-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .compre-agora {
+    margin: 0 0 20px 0;
+  }
+}

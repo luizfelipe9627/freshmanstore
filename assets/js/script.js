@@ -1,10 +1,10 @@
 document.querySelector(".menu-mobile").addEventListener("click", function () {
   if (document.querySelector(".menu").style.opacity == "100") {
     document.querySelector(".menu").style.opacity = "0";
-    document.querySelector(".menu-mobile").src = "https://freshmanstore.github.io/freshmanstore/assets/image/menu-mobile.svg";
+    document.querySelector(".menu-mobile").src = "https://freshmanstore.github.io/assets/image/menu-mobile.svg";
   } else {
     document.querySelector(".menu").style.opacity = "100";
-    document.querySelector(".menu-mobile").src = "https://freshmanstore.github.io/freshmanstore/assets/image/fechar-menu.svg";
+    document.querySelector(".menu-mobile").src = "https://freshmanstore.github.io/assets/image/fechar-menu.svg";
   }
 });
 

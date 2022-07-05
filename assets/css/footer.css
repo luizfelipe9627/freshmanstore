@@ -71,6 +71,10 @@ form {
   padding: 0 5rem;
 }
 
+.copy-frase {
+  color: #FFF;
+}
+
 .redes-sociais {
   display: flex;
 }

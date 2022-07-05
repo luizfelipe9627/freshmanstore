@@ -1,16 +1,16 @@
 header {
-  position: relative;
+  width: 100vw;
   background-color: #FFF;
-  z-index: 999;
+  position: fixed;
 }
 
 .section-menu {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  max-width: 1140px; 
-  height: 80px;
-  margin:  auto;
+  max-width: 71.25rem; 
+  height: 5rem;
+  margin: auto;
 }
 
 .menu {
@@ -26,7 +26,7 @@ nav ul {
 nav li a {
   text-decoration: none;
   color: #000;
-  font-size: 17px;
+  font-size: 1.0625rem;
   text-transform: uppercase;
 }
 
@@ -49,33 +49,33 @@ nav li a {
 }
 
 .lupa {
-  margin-left: -40px;
+  margin-left: -2.5rem;
 }
 
 .bolsa {
-  margin: 0 30px 0 30px;
+  margin: 0 1.875rem 0 1.875rem;
 }
 
 .pesquisar input {
-  height: 40px;
-  width: 180px;
-  padding: 15px;
-  margin-left:100px;
-  border-radius: 20px;
+  height: 2.5rem;
+  width: 11.25rem;
+  padding: 0.9375rem;
+  margin-left:6.25rem;
+  border-radius: 1.25rem;
   border: none;
   outline: none;
   background-color: #F2F2F2;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
 }
 
 .menu-icon img {
   display: none;
-  margin-bottom: 3px;
+  margin-bottom: 0.1875rem;
   cursor: pointer;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 768px) {
    header {
     align-items: center;
     justify-content: center;
@@ -89,33 +89,33 @@ nav li a {
     opacity: 0;
     transition:all 1s ease 0.1s;
     flex-direction: column-reverse;
-    padding: 30px 20px 20px 20px;
+    padding: 1.875rem 1.25rem 1.25rem 1.25rem;
     background-color: #FFF;
     position: absolute;
-    top: 80px;
+    top: 5rem;
     right: 0;
   }
 
   .logo {
-    width: 70vw;
+    width: 80vw;
   }
   
   .menu .pesquisar input {
-    width: 220px;
+    width: 13.75rem;
     margin: 0;
   }
   
   .menu .lupa {
-    margin-right: -10px;
+    margin-right: -0.625rem;
   }
   
-   nav ul {
+  nav ul {
     flex-direction: column;
     align-items: flex-end;
   }
   
   nav li a {
-    margin: 30px 20px 30px 20px;
+    margin: 1.875rem 1.25rem 1.875rem 1.25rem;
   }
   
   nav ul a:hover {
@@ -127,10 +127,10 @@ nav li a {
   }
 
   .usuario {
-    margin-left: 30px;
+    margin-left: 1.875rem;
   }
 
   .bolsa-e-usuario {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 }

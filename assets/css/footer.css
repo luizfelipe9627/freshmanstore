@@ -1,0 +1,133 @@
+.subscrever {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  background-color: #828282;
+  padding: 3.125rem 1.25rem 3.125rem 0;
+  margin-bottom: 0;
+}
+
+.subscrever-texto p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #FFF;
+  max-width: 70vw;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+.subscrever-email input {
+  padding: 0.625rem;
+  border-radius: 1.5625rem;
+  background-color: #F2F2F2;
+  outline: none;
+  width: 15.625rem;
+}
+
+.carta {
+  margin-left: -3.125rem;
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 78vw;
+  margin-top: 1.875rem;
+}
+
+.titulo {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.lista li {
+  margin: 0 6.25rem 1.25rem 0;
+  width: 12.5rem;
+}
+
+.lista li:last-child {
+  margin-bottom: -1.875rem;
+}
+
+.lista li a {
+  color: #000;
+}
+
+.copy {
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color:#323232;
+  padding: 0 5rem;
+}
+
+.redes-sociais {
+  display: flex;
+}
+
+.facebook {
+  margin: 0 0.625rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .subscrever {
+    justify-content: left;
+    padding-left: 1.875rem;
+  }
+
+  .subscrever-texto p {
+    margin-bottom: 1.25rem;
+  }
+
+  .lista {
+    margin: 0 0 1.5625rem 1.875rem;
+  }
+
+  .lista1, .lista2, .lista3 {
+    margin-top: 1.25rem;
+  }
+
+  .lista li:last-child {
+    margin-bottom: auto;
+  }
+  
+  .titulo:not(.lista1 .titulo) {
+    margin-top: 1.25rem;
+  }
+  
+  .copy {
+    padding: 1.875rem 1.25rem 1.25rem 1.25rem;
+    justify-content: left;
+    height: auto;
+  }
+
+  .copy-frase p, .redes-sociais {
+    margin-top: 0.9375rem;
+  }
+}
+
+@media (width: 768px) {
+  .subscrever {
+    padding-left: 3.75rem;
+  }
+
+  .lista {
+    max-width: 50vw;
+  }
+
+  .copy {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 4.375rem;
+  }
+}

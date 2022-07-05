@@ -4,12 +4,26 @@ body {
 
 button {
   background-color:  #333333 ;
-  width: 194px;
-  height: 40px;
+  width: 12.125rem;
+  height: 2.5rem;
   color: #FFF;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 }
 
 .container {
-  margin: 40px 0;
+  margin: 2.5rem 0;
+  padding: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+a:hover, button:hover {
+  transition: all ease 1s;
+  font-weight: 700;
 }

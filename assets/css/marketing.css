@@ -1,56 +1,54 @@
 .marketing-fone {
   background: #F2F2F2;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  top: 0;
-  z-index: 1;
+  margin-top: 0;
 }
 
 .texto-marketing {
-  align-items: center;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  margin: 20px;
 }
 
 .container-texto h1 {
   font-family: 'Montserrat';
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
-  padding-bottom: 5px;
+  padding-bottom: 0.3125rem;
   color: #333333
 }
 
 .container-texto h2 {
   font-family: 'Montserrat';
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 500;
 }
 
 .container-texto p {
   font-family: 'Montserrat';
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
-  padding-top: 10px;
-  max-width: 600px;
+  padding-top: 0.625rem;
+  max-width: 37.5rem;
   color: #333333;
 }
 
 .barra-modelo {
   background-color: #FFFFFF;
-  border-radius: 15px;
-  padding: 10px 30px 10px 30px;
+  border-radius: 0.9375rem;
+  padding: 0.625rem 1.875rem 0.625rem 1.875rem;
   width: 78vw;
   justify-content: space-between;
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   flex-wrap: wrap;
 }
 
@@ -61,45 +59,44 @@
 
 .negrito-modelo {
   font-family: 'Barlow Condensed';
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
-  margin-right: 10px;
+  margin-right: 0.625rem;
   color: #333333;
   text-transform: uppercase;
 }
 
 .nome-modelo {
   font-family: 'Montserrat';
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   color: #333333;
 }
 
 .air-dots img {
-  width: 400px;
-  height: 400px;
-  margin: 0 -110px 0 90px;
-
+  width: 25rem;
+  height: 25rem;
+  margin: 0 -6.875rem 0 5.625rem;
 }
 
 .comprar-agora button {
-  margin-left: 50px;
+  margin-left: 3.125rem;
 }
 
 .comprar-agora button:hover {
   font-weight: bold;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .air-dots img {
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
     margin: 0;
   }
 
   .marketing-fone {
-    top: auto;
-    height: 85vh;
+    padding: 7.5rem 1.5625rem 2.5rem 1.5625rem;
+    height: 100%;
   }
 
   .texto-marketing {
@@ -107,24 +104,24 @@
   }
 
   .container-texto h1 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   .container-texto h2 {
-    font-size: 21px;
+    font-size: 1.3125rem;
   }
 
   .container-texto p {
-    font-size: 19px;
+    font-size: 1.1875rem;
   }
 
   .barra-modelo {
     background-color: transparent;
     margin: 0;
+    padding: 0;
     justify-content: center;
     align-items: center;
     width: auto;
-    padding: 0;
     max-width: 75vw;
     flex-wrap: wrap;
   }
@@ -133,10 +130,10 @@
     display: block;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    margin: 0 10px 10px 0;
+    padding: 0.625rem;
+    margin: 0 0.625rem 0.625rem 0;
     background-color: #FFF;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     text-align: center;
   }
 
@@ -145,11 +142,11 @@
   }
 
   .comprar-agora {
-    padding: 0 7px 0 7px
+    padding: 0 0.4375rem 0 0.4375rem
   }
 
   .comprar-agora button {
-    margin: 5px;
+    margin: 1.25rem 0.3125rem 0.625rem 0.3125rem;
   }
 
   .negrito-modelo {

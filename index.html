@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/style.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="shortcut icon" href="./assets/image/icon.svg" type="image/x-icon">
@@ -15,11 +15,11 @@
         <header>
             <div class="section-menu">
                 <div class="logo">
-                    <a href="#logo"><img src="./assets/image/freshmanstore.svg" alt="Logo freshmanstore" width="183" height="44"></a>
+                    <a href="#logo"><img src="./assets/image/freshmanstore.svg" alt="Logo freshmanstore" loading="lazy" width="183" height="44"></a>
                 </div>
 
                 <div class="menu-icon">
-                    <img src="./assets/image/menu-mobile.svg" class="menu-mobile" alt="Menu" aria-label="Abrir menu" width="45" height="45">
+                    <img src="./assets/image/menu-mobile.svg" class="menu-mobile" alt="Menu" aria-label="Abrir e fechar menu" loading="lazy" width="45" height="45">
                 </div>
                
                 <div class="menu">
@@ -33,16 +33,16 @@
             
                     <div class="pesquisar">
                         <input type="text" placeholder="Procurar">
-                        <a href="#lupa"><img src="./assets/image/lupa.svg" class="lupa" alt="Lupa de pesquisa" width="25" height="25"></a>
+                        <a href="#lupa"><img src="./assets/image/lupa.svg" class="lupa" alt="Lupa de pesquisa" loading="lazy" width="25" height="25"></a>
                     </div>
 
                     <div class="bolsa-e-usuario">
                         <div class="bolsa">
-                            <a href="#bolsa"><img src="./assets/image/bolsa-de-compras.svg" alt="Bolsa de compras" width="25" height="25"></a>
+                            <a href="#bolsa"><img src="./assets/image/bolsa-de-compras.svg" alt="Bolsa de compras" loading="lazy" width="25" height="25"></a>
                         </div>
     
                         <div class="usuario">
-                            <a href="#usuario"><img src="./assets/image/usuário.svg" alt="Ícone usuário" width="25" height="25"></a>
+                            <a href="#usuario"><img src="./assets/image/usuário.svg" alt="Ícone usuário" loading="lazy" width="25" height="25"></a>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
         </header>
 
         <main>
-            <section class="marketing-fone">
+            <section class="container marketing-fone">
                 <div class="texto-marketing">
                     <div class="container-texto">
                         <h1>Fone de Ouvido Bluetooth</h1>
@@ -62,7 +62,7 @@
                     </div>
                     
                     <div class="air-dots">
-                        <img src="./assets/image/airdots.svg" alt="AirDots" width="488" height="488">
+                        <img src="./assets/image/airdots.svg" alt="AirDots" loading="lazy" width="488" height="488">
                     </div>
                 </div>
 
@@ -122,18 +122,18 @@
                     <div class="slider">
                         <div class="slider-controls">
                             <div class="slider-control" onclick="goPrev()">
-                               <img class="seta-direita" src="./assets/image/seta-direita.svg" alt="Retroceder imagem" title="Retroceder" width="22" height="38">
+                               <img class="seta-direita" src="./assets/image/seta-direita.svg" alt="Retroceder imagem" title="Retroceder" loading="lazy" width="22" height="38">
                             </div>
 
                             <div class="slider-control" onclick="goNext()">
-                                <img class="seta-esquerda" src="./assets/image/seta-esquerda.svg" alt="Avançar imagem" title="Avançar" width="22" height="38">
+                                <img class="seta-esquerda" src="./assets/image/seta-esquerda.svg" alt="Avançar imagem" title="Avançar" loading="lazy" width="22" height="38">
                             </div>
                         </div>
                         
                         <div class="slider-width">
                             <div class="slider-img">
                                 <div class="area-produto">
-                                    <img src="./assets/image/produto1.svg" alt="Foto do Xiaomi Mi True" width="256px" height="326px">
+                                    <img src="./assets/image/produto1.svg" alt="Foto do Xiaomi Mi True" loading="lazy" width="256px" height="326px">
         
                                     <div class="titulo-produto">
                                         <h1>Xiaomi Mi True Wireless Earphones 2</h1>
@@ -151,7 +151,7 @@
     
                             <div class="slider-img">
                                 <div class="area-produto">
-                                    <img src="./assets/image/produto2.svg" alt="Foto do Xiaomi Mi Band" width="256px" height="326px">
+                                    <img src="./assets/image/produto2.svg" alt="Foto do Xiaomi Mi Band" loading="lazy" width="256px" height="326px">
         
                                     <div class="titulo-produto">
                                         <h1>Xiaomi Mi Band 6</h1>
@@ -169,7 +169,7 @@
     
                             <div class="slider-img">
                                 <div class="area-produto">
-                                    <img src="./assets/image/produto3.svg" alt="Foto do Mi Box" width="256px" height="326px">
+                                    <img src="./assets/image/produto3.svg" alt="Foto do Mi Box" loading="lazy" width="256px" height="326px">
         
                                     <div class="titulo-produto">
                                         <h1>Mi Box S</h1>
@@ -206,12 +206,92 @@
                         </div>
                     </div>
                 </div>
-                
             </section>
         </main>
 
         <footer>
+            <div class="container subscrever" aria-label="Newsletter">
+                <div class="subscrever-texto">
+                    <p>
+                        Subscreva a nossa newsletter para se manter atualizado com os produtos mais recentes. promoções especiais e outras informações para nossos clientes.
+                    </p>
+                </div>
 
+                <div class="subscrever-email">
+                    <form>
+                        <label>
+                            <input type="email" placeholder="Email" required>
+                        </label>
+
+                        <img src="./assets/image/carta.svg" class="carta" alt="Carta" loading="lazy" width="26" height="20">
+                    </form>
+                </div>
+            </div>
+
+            <div class="container lista" aria-label="Lista de opções">
+                <div class="lista1">
+                    <ul>
+                        <li class="titulo">Produtos</li>
+                        <li><a href="#novas-chegadas">Novas chegadas</a></li>
+                        <li><a href="#mais-vendidos">Mais vendidos</a></li>
+                        <li><a href="#datas-de-lancamento">Datas de lançamento</a></li>
+                        <li><a href="#oferta">Oferta</a></li>
+                    </ul>
+                </div>
+
+                <div class="lista2">
+                    <ul>
+                        <li class="titulo">Obter ajuda</li>
+                        <li><a href="#rastreador">Rastreador de pedidos</a></li>
+                        <li><a href="#envio">Envio</a></li>
+                        <li><a href="#devolucoes-e-trocas">Devoluções e trocas</a></li>
+                        <li><a href="#pagamento">Métodos de pagamento</a></li>
+                        <li><a href="#contate-nos">Contate-nos</a></li>
+                    </ul>
+                </div>
+
+                <div class="lista3">
+                    <ul>
+                        <li class="titulo">Sobre nós</li>
+                        <li><a href="#historias">Histórias</a></li>
+                        <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                        <li><a href="#noticias">Noticias</a></li>
+                        <li><a href="#carreiras">Carreiras</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copy">
+                <div class="copy-logo">
+                    <img src="./assets/image/freshmanstore2.svg" alt="Logo" loading="lazy" width="179" height="19">
+                </div>
+
+                <div class="copy-frase">
+                    <p>
+                        ©️ 2022 FreshmanStore, Inc. Todos os direitos reservados.
+                    </p>
+                </div>
+
+                <div class="redes-sociais">
+                    <div class="youtube">
+                        <a href="#youtube">
+                            <img src="./assets/image/youtube.svg" alt="YouTube" loading="lazy" width="25" height="25">
+                        </a>
+                    </div>
+
+                    <div class="facebook">
+                        <a href="#facebook">
+                            <img src="./assets/image/facebook.svg" alt="Facebook" loading="lazy" width="25" height="25">
+                        </a>
+                    </div>
+
+                    <div class="instagram">
+                        <a href="#instagram">
+                            <img src="./assets/image/instagram.svg" alt="Instagram" loading="lazy" width="25" height="25">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </footer>
         <script src="./assets/js/script.min.js"></script>
     </body>

@@ -2,17 +2,17 @@
 
 ![Badge](https://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=blue&style=for-the-badge)             
 
-<img src="https://github.com/FreshmanStore/freshmanstore/blob/master/assets/image/site.png" alt="Apresentação do site">
+<img src="https://github.com/FreshmanStore/freshmanstore/blob/master/assets/video/freshmanstore.gif" alt="Apresentação do Freshmanstore">
 
 ## 📄 Descrição
 Nesse projeto web o cliente terá acesso a produtos de última geração, podendo adicionar ele no carrinho, efetuar a compra e até mesmo fazer um cadastro em nosso site.
 
-### <a href="https://freshmanstore.github.io/freshmanstore">Acesse o site</a>
+### <a href="https://freshmanstore.github.io">Acesse o site</a>
 
 ## 📑 Observação
-Se você está entrando aqui pela primeira vez, prazer somos um grupo de 5 pessoas com intuito de desenvolver um e-commerce por meio de html, css e a paparicada por todos JAVASCRIPT, o nome do nosso projeto é FreshmanStore.
+Se você está entrando aqui pela primeira vez, prazer somos um grupo de 3 pessoas que tem com intuito de desenvolver um e-commerce por meio de HTML, CSS e JS. O nome do nosso projeto é Freshmanstore.
 <br><br>
-Temos o intuito de não só usar para portfólio mas também fazer dele nosso recurso financeiro futuramente, somos leigos nessa novo mundo da programação estamos no 1° semestre de análise e desenvolvimento de sistemas, por isso pode ser que demoremos para terminar.
+Temos como intuito de não só usar para portfólio mas também fazer dele nosso recurso financeiro futuramente, somos leigos nesse novo mundo da programação estamos no 2° semestre de Análise e Desenvolvimento de Sistemas, por isso pode ser que demoremos para terminar esse projeto.
 <br><br>
  Porém temos esse projeto como uma prática bem integradora, onde nos levará aprender a trabalhar como equipe já que no meio profissional deveremos nos acostumar com essa logística de desenvolvimento.
 

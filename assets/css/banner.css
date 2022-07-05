@@ -16,9 +16,9 @@
 }
 
 .banner-titulo {
-  font-size: 30px;
-  margin-bottom: 10px;
-  line-height: 35px;
+  font-size: 1.875rem;
+  margin-bottom: 0.625rem;
+  line-height: 2.1875rem;
   color: #333333;
 }
 
@@ -27,22 +27,22 @@
 }
 
 .banner-frase p {
-  line-height: 25px;
-  margin-bottom: 30px;
+  line-height: 1.5625rem;
+  margin-bottom: 1.875rem;
   color: #333333;
 }
 
 .banner-button button {
   text-transform: uppercase;
-  width: 180px;
-  height: 40px;
+  width: 11.25rem;
+  height: 2.5rem;
   cursor: pointer;
 }
 
 .compre-agora {
   background-color: #F2F2F2;;
   text-transform: uppercase;
-  margin-right: 30px;
+  margin-right: 1.875rem;
   color: #333333;
 }
 
@@ -54,13 +54,13 @@
   font-weight: 700;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .banner-texto {
     max-width: 70vw;
   }
 
   .banner-titulo {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
 
   .banner-button {
@@ -70,6 +70,6 @@
   }
 
   .compre-agora {
-    margin: 0 0 20px 0;
+    margin: 0 0 1.25rem 0;
   }
 }

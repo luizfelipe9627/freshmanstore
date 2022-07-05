@@ -3,8 +3,8 @@
 }
 
 .tendencia-titulo h1 {
-  padding: 20px 0 40px 0;
-  font-size: 24px;
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -17,26 +17,26 @@
 
 .slider-img h1 {
   font-family: 'Barlow';
-  font-size: 15.5px;
+  font-size: 0.9688rem;
   font-weight: 400;
-  margin: 10px 0 20px 10px;
+  margin: 0.625rem 0 1.25rem 0.625rem;
   color: #828282;
 }
 
 .slider-img p {
   font-family: 'Barlow Condensed';
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   color: #333333;
-  margin:  0 0 0 10px;
+  margin:  0 0 0 0.625rem;
 }
 
 .slider-img img {
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 }
 
 .modelo-produto p {
-  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
 }
 
 .slider {
@@ -67,7 +67,7 @@
 
 .slider-control {
   display: flex;
-  margin-top: -110px;
+  margin-top: -6.875rem;
 }
 
 .seta-direita {
@@ -79,7 +79,7 @@
   cursor: pointer;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .slider-img {
     width: 100vw;
     height: inherit;
@@ -93,7 +93,7 @@
   }
 
   .preco-produto {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 
   .seta-direita {

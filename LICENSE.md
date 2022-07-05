@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2022 Luiz Felipe Silva
+Copyright (c) 2022 Luiz Felipe Silva, Elves Santos e Jeovane Nunes.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

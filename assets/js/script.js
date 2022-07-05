@@ -38,4 +38,4 @@ function updateMargin() {
   document.querySelector('.slider-width').style.marginLeft = `-${newMargin}px`;
 }
 
-setInterval(goNext, 2500);
+// setInterval(goNext, 2500);

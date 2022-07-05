@@ -2,6 +2,7 @@ header {
   width: 100vw;
   background-color: #FFF;
   position: fixed;
+  z-index: 999;
 }
 
 .section-menu {

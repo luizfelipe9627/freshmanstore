@@ -121,13 +121,11 @@
     padding: 0;
     justify-content: center;
     align-items: center;
-    width: auto;
-    max-width: 75vw;
+    max-width: 70vw;
     flex-wrap: wrap;
   }
 
   .modelo {
-    display: block;
     justify-content: center;
     align-items: center;
     padding: 0.625rem;
@@ -137,7 +135,8 @@
     text-align: center;
   }
 
-  .valor-modelo {
+  .negrito-modelo {
+    padding-right: 0.625rem;
     margin-right: 0;
   }
 
@@ -147,9 +146,5 @@
 
   .comprar-agora button {
     margin: 1.25rem 0.3125rem 0.625rem 0.3125rem;
-  }
-
-  .negrito-modelo {
-    margin-right: 0;
   }
 }

@@ -9,7 +9,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  max-width: 71.25rem; 
+  max-width: 85vw; 
   height: 5rem;
   margin: auto;
 }
@@ -50,7 +50,8 @@ nav li a {
 }
 
 .lupa {
-  margin-left: -2.5rem;
+  margin-left: -4rem;
+  cursor: pointer;
 }
 
 .bolsa {
@@ -87,8 +88,7 @@ nav li a {
   }
 
   .menu {
-    opacity: 0;
-    transition:all 1s ease 0.1s;
+    display: none;
     flex-direction: column-reverse;
     padding: 1.875rem 1.25rem 1.25rem 1.25rem;
     background-color: #FFF;

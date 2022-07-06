@@ -1,12 +1,16 @@
 .subscrever {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  justify-content: space-around;
   width: 100vw;
   background-color: #828282;
-  padding: 3.125rem 1.25rem 3.125rem 0;
+  padding: 3.125rem;
   margin-bottom: 0;
+}
+
+.subscrever-box {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 92vw;
 }
 
 .subscrever-texto p {
@@ -34,11 +38,16 @@ form {
 }
 
 .lista {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lista-box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 78vw;
-  margin-top: 1.875rem;
+  margin-left: 2.5rem;
 }
 
 .titulo {
@@ -48,7 +57,7 @@ form {
 }
 
 .lista li {
-  margin: 0 6.25rem 1.25rem 0;
+  margin: 0 6.25rem 1.25rem 1.25rem;
   width: 12.5rem;
 }
 
@@ -61,14 +70,17 @@ form {
 }
 
 .copy {
-  width: 100vw;
-  height: 5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
   background-color:#323232;
   padding: 0 5rem;
+}
+
+.copy-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.875rem 0;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 90vw;
 }
 
 .copy-frase {
@@ -86,7 +98,6 @@ form {
 @media (min-width: 320px) and (max-width: 768px) {
   .subscrever {
     justify-content: left;
-    padding-left: 1.875rem;
   }
 
   .subscrever-texto p {
@@ -94,7 +105,11 @@ form {
   }
 
   .lista {
-    margin: 0 0 1.5625rem 1.875rem;
+    margin: 0 0 1.5625rem -2rem;
+  }
+
+  .lista-box {
+    flex-direction: column;
   }
 
   .lista1, .lista2, .lista3 {
@@ -110,6 +125,11 @@ form {
   }
   
   .copy {
+    margin: 0;
+    padding-left: 10vw;
+  }
+
+  .copy-box {
     padding: 1.875rem 1.25rem 1.25rem 1.25rem;
     justify-content: left;
     height: auto;
@@ -122,16 +142,15 @@ form {
 
 @media (width: 768px) {
   .subscrever {
-    padding-left: 3.75rem;
-  }
-
-  .lista {
-    max-width: 50vw;
+    padding-left: 2.5rem;
   }
 
   .copy {
+    padding-left: 4vw;
+  }
+
+  .copy-box {
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 4.375rem;
   }
 }

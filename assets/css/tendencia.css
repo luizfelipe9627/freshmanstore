@@ -42,7 +42,7 @@
 .slider {
   overflow: hidden;
   align-items: center;
-  width: 59vw;
+  width: 63vw;
 }
 
 .slider-width {
@@ -53,10 +53,9 @@
 
 .slider-img {
   display: flex;
-  min-width: 19.7vw;
+  min-width: 21vw;
   justify-content: center;
   align-items: center;
-  z-index: 2;
 }
 
 .slider-controls {
@@ -97,4 +96,32 @@
   }
 }
 
+@media (width: 768px) {
+  .container.tendencia {
+    margin: 0;
+    padding: 0;
+  }
+
+  .tendencia-imagens {
+    justify-content: space-around;
+  }
+
+  .slider-img {
+    width: 36vw;
+  }
+
+  .slider-controls {
+    margin-left: -2.5rem;
+    width: 83vw !important;
+  }
+
+  .slider-control {
+    height: 17vh;
+    margin: initial;
+  }
+
+  .slider {
+    width: 73vw;
+  }
+}
 

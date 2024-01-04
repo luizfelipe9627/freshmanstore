@@ -43,7 +43,7 @@ Temos como intuito de não só usar para portfólio mas também fazer dele nosso
   <tr>
     <td align="center">
       <a href="https://github.com/elvescmd">
-        <img src="https://github.com/e1vescmd.png" width="100px;" alt="Foto do Elves"/><br>
+        <img src="https://github.com/elvescmd.png" width="100px;" alt="Foto do Elves"/><br>
         <sub>
           <b>Elves Santos</b>
         </sub>

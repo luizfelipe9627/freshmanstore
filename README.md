@@ -7,7 +7,7 @@
 ## 📄 Descrição
 Nesse projeto web o cliente terá acesso a produtos de última geração, podendo adicionar ele no carrinho, efetuar a compra e até mesmo fazer um cadastro em nosso site.
 
-### <a href="https://freshmanstore.github.io">Acesse o site</a>
+### <a href="https://luizfelipe9627-freshmanstore.netlify.app">Acesse o site</a>
 
 ## 📑 Observação
 Se você está entrando aqui pela primeira vez, prazer somos um grupo de 3 pessoas que tem com intuito de desenvolver um e-commerce por meio de HTML, CSS e JS. O nome do nosso projeto é Freshmanstore.
@@ -18,9 +18,9 @@ Temos como intuito de não só usar para portfólio mas também fazer dele nosso
 
 ## 💻 Tecnologias utilizadas
 
-- ``HTML5``
-- ``CSS3``
-- ``JavaScript``
+- `HTML5`
+- `CSS3`
+- `JAVASCRIPT`
 
 ## 🌌 Equipe front-end
 
@@ -42,7 +42,7 @@ Temos como intuito de não só usar para portfólio mas também fazer dele nosso
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/e1vescmd">
+      <a href="https://github.com/elvescmd">
         <img src="https://github.com/e1vescmd.png" width="100px;" alt="Foto do Elves"/><br>
         <sub>
           <b>Elves Santos</b>
